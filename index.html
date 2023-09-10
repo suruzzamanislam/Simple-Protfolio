@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Protfolio</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- navbar -->
+  <div class="border-b sticky top-0 z-10 bg-[#100000] border-purple-500 py-2">
+    <div class="container flex items-center md:justify-between">
+      <div class="flex items-center">
+        <!-- dropdown menu -->
+        <div class="block md:hidden px-6">
+          <div class="dropdown dropdown-bottom-right">
+            <label tabindex="0" class=" m-1"><i class="fa-solid fa-bars text-purple-300 cursor-pointer"></i></label>
+            <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow shadow-white  rounded-box w-52 text-purple-300 bg-[#000000]">
+              <li><a href="#home" class="border-b border-purple-500  hover:text-yellow-400">Home</a></li>
+              <li><a href="#about" class="border-b border-purple-500 transition  hover:text-yellow-400">About</a></li>
+              <li><a href="#services" class="border-b border-purple-500 transition  hover:text-yellow-400">Services</a></li>
+              <li><a href="#skills" class="border-b border-purple-500 transition  hover:text-yellow-400">Skills</a></li>
+              <li><a href="#project" class="border-b border-purple-500 transition  hover:text-yellow-400">Project</a></li>
+              <li><a href="#contact" class="border-b border-purple-500 transition  hover:text-yellow-400">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="">
+          <h1 class="text-2xl text-purple-300 font-semibold"><a href="#">SURUZZAMAN</a></h1>
+        </div>
+      </div>
+        <div class="text-white hidden md:block">
+          <ul class="flex text-white md:space-x-5 lg:space-x-10 text-lg">
+            <li><a href="#home" class="hover:border-b hover:border-purple-500 text-purple-300 hover:text-purple-500">Home</a></li>
+            <li><a href="#about" class="hover:border-b scroll-smooth border-purple-500 transition text-purple-300 hover:text-purple-500">About</a></li>
+            <li><a href="#services" class="hover:border-b border-purple-500 transition text-purple-300 hover:text-purple-500">Services</a></li>
+            <li><a href="#skills" class="hover:border-b border-purple-500 transition text-purple-300 hover:text-purple-500">Skills</a></li>
+            <li><a href="#project" class="hover:border-b border-purple-500 transition text-purple-300 hover:text-purple-500">Project</a></li>
+            <li><a href="#contact" class="hover:border-b border-purple-500 transition text-purple-300 hover:text-purple-500">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+
+
+  <!-- header -->
+      <header id="home" class="bg-[#100000] mb-0 md:pb-20 snap-start">       
+        <div class="container">
+          <!-- hero area -->
+          <div class="md:text-start text-center">
+  
+            <div class="md:flex justify-center items-center pt-7 sm:pt-16 md:pt-36">
+              <div class="text-white">
+                <h1 class="leading-7"><span class="lg:text-5xl md:text-4xl text-2xl font-semibold text-purple-500 tracking-widest mb-3 inline-block">Hello,</span><span class="md:text-3xl text-2xl font-semibold ">It's Me</span><br><span class="text-2xl md:text-4xl font-bold tracking-wider font-serif">MD.SURUZZAMAN SAJU</span><br><span class="text-3xl font-semibold">And I'm a <span class="md:text-4xl text-2xl font-bold tracking-wider text-purple-500">WEB DESIGNER</span></span></h1>
+                <p class="tracking-wide mt-6 hidden lg:block text-purple-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam sedbr
+                   similique dolore <br> sit amet consectetur,  adipisicing elit. Totam deleniti natus facilis assumenda hic modi,  sed consequuntur <br> veritatis dicta eveniet, distinctio necessitatibus aliquam quidem consectetur  </p>
+              </div>
+    
+              <div id="img" class="ms-auto w-80 h-80 rounded-[100%] mx-auto hover:rotate-[360deg] duration-1000 lg:hover:scale-110 lg:scale-100 md:hover:scale-75 hover:scale-75 scale-50 ">
+                <img class="w-80 h-80 rounded-[100%] ring-4 ring-offset-8 ring-offset-[#000000] ring-[#A855F7]" src="image/20230502_172456-01.jpeg" alt="">
+              </div>
+            </div>
+            <!-- icon -->
+            <div class=" pb-5 md:pb-10  flex space-x-5 lg:mt-0 justify-center md:justify-start">
+              <div class="border w-10 cursor-pointer  h-10 flex justify-center items-center rounded-full transition icon hover:rotate-[360deg] duration-700"><i class="fa-brands fa-facebook text-purple-500 text-3xl }"></i></div>
+    
+              <div class="border w-10 cursor-pointer  h-10 flex justify-center items-center rounded-full transition icon hover:rotate-[360deg] duration-700"><i class="fa-brands fa-tiktok text-purple-500 text-2xl }"></i></div>
+    
+    
+              <div class="border w-10  cursor-pointer h-10 flex justify-center items-center rounded-full transition icon hover:rotate-[360deg] duration-700"><i class="fa-brands fa-facebook-messenger text-purple-500 text-2xl }"></i></div>
+    
+              <div class="border w-10 cursor-pointer  h-10 flex justify-center items-center rounded-full transition icon hover:rotate-[360deg] duration-700"><i class="fa-brands fa-github text-purple-500 text-2xl }"></i></div>
+            </div>
+    
+            <!-- animated btn -->
+            <div class="">
+              <a class="btn px-4 py-1 text-xl transition overflow-hidden border-none text-orange-400 bg-[#000000]  tracking-widest font-semibold relative" href="">
+                <span class="sp1 absolute"></span>
+                <span class="sp2 absolute"></span>
+                <span class="sp3 absolute"></span>
+                <span class="sp4 absolute"></span>
+                HIRE ME</a>
+            </div>
+          </div>
+        </div>             
+      </header>
+
+
+      <!-- about section -->
+
+      <section class="bg-[#100000] md:py-28 py-0 snap-start scroll-m-32" id="about">
+        <div class="container md:flex items-center md:space-x-7  justify-between">
+
+          <div id="img2" class=" w-80 h-80 mx-auto md:mx-0 rounded-[100%] hover:rotate-[360deg] duration-1000 lg:hover:scale-110 lg:scale-100 md:hover:scale-75 hover:scale-75 scale-50 ">
+            <img class="w-80 h-80 rounded-[100%] ring-4 ring-offset-8 ring-offset-[#000000] ring-[#A855F7] image-full" src="image/about.jpeg" alt="">
+          </div>
+
+          <div class="text-white w-2/3 mx-auto md:mx-0 text-justify md:text-start ">
+            <h1 class="text-4xl tracking-widest font-semibold text-cyan-400">ABOUT ME</h1>
+            <p class="text-xl italic tracking-wider mt-1 mb-2 text-orange-400"><span class="text-purple-500 text-4xl italic font-mono font-bold">F</span>RONT-END DEVELOPER</p>
+
+            <p class="text-lg text-purple-300 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odit deserunt voluptatibus dolorum, et quis voluptates neque soluta. Facilis, eum. Voluptates recusandae dolorum porro officia assumenda autem velit amet? Dicta doloremque sed neque soluta error, tempora reiciendis minima, qui iure cupiditate ad? Voluptatibus doloremque nisi doloribus ipsa repudiandae saepe! Explicabo asperiores fugiat molestias reiciendis vero sint modi veniam debitis similique? Ullam, doloribus! At qui necessitatibus, expedita laborum vel harum non dignissimos ad, recusandae cupiditate in optio culpa consectetur, rem numquam quia. Ad dolorum dolores possimus magni nesciunt facere perspiciatis, dicta corporis assumenda quo enim sequi hic atque consectetur impedit doloremque.
+            </p>
+            <div class="">
+              <a class="btn px-4 py-1 text-xl transition overflow-hidden border-none text-orange-400 bg-[#000000]  tracking-widest font-semibold relative" href="">
+                <span class="sp1 absolute"></span>
+                <span class="sp2 absolute"></span>
+                <span class="sp3 absolute"></span>
+                <span class="sp4 absolute"></span>
+                MORE ABOUT ME</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- services -->
+
+      <section id="services" class="py-12 pb-24 bg-[#100000] snap-start scroll-m-32">
+        <div class="container ">
+          <h1 class="lg:text-5xl text-2xl sm:text-3xl md:text-4xl font-semibold text-center lg:mb-28 mb-10 md:mb-20 sm:mb-14 text-white tracking-widest">My <span class="text-cyan-400">Services</span></h1>
+          <div class="lg:flex justify-between items-center lg:space-x-12">
+            <!-- single -->      
+            <div id="card" class="bg-[#183d51] mb-8 lg:mb-0 text-white px-5 py-5 rounded-lg">
+              <div>
+                <i class="fa-solid fa-code text-3xl text-cyan-400 font-semibold mt-2 mb-5"></i>
+              </div>
+              <div class="text-2xl font-semibold py-2">
+                UI/UX Design
+              </div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed perferendis quibusdam odio optio soluta. Tempora, laudantium, possimus alias nobis totam, perferendis ?</p>
+              <a href="#" id="learn" class="px-5 py-1 text-lg mt-6 inline-block rounded-full bg-cyan-400 ">learn more</a>
+            </div>
+            <!-- single -->
+            <div id="card" class="bg-[#183d51] mb-8 lg:mb-0 text-white px-5 py-5 rounded-lg">
+              <div>
+                <i class="fa-solid fa-layer-group text-3xl text-cyan-400 font-semibold mt-2 mb-5"></i>
+              </div>
+              <div class="text-2xl font-semibold py-2">
+                Web Design
+              </div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed perferendis quibusdam odio optio soluta. Tempora, laudantium, possimus alias nobis totam, perferendis ?</p>
+              <a href="#" id="learn" class="px-5 py-1 text-lg mt-6 inline-block rounded-full bg-cyan-400 ">learn more</a>
+            </div>
+            <!-- single -->
+            <div id="card" class="bg-[#183d51]  text-white px-5 py-5 rounded-lg">
+              <div>
+                <i class="fa-brands fa-apple text-3xl text-cyan-400 font-semibold mt-2 mb-5"></i>
+              </div>
+              <div class="text-2xl font-semibold py-2">
+                App Design
+              </div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed perferendis quibusdam odio optio soluta. Tempora, laudantium, possimus alias nobis totam, perferendis ?</p>
+              <a href="#" id="learn" class="px-5 py-1 text-lg mt-6 inline-block rounded-full bg-cyan-400 ">learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills -->
+
+      <section id="skills"  class="bg-[#100000] py-20 snap-start">
+        <div class="container">
+          <h1 class="lg:text-5xl text-2xl sm:text-3xl md:text-4xl font-semibold text-center lg:mb-28 mb-10 md:mb-20 sm:mb-14 text-white tracking-widest">My <span class="text-cyan-400">Skills</span></h1>
+          <div class="lg:flex  justify-between gap-x-24">
+
+            <div class="lg:w-1/2">
+              <h1 class="text-2xl font-semibold text-white text-center lg:mb-7 tracking-widest">Tecnical Skills</h1>
+              <div>
+                <div class="text-white text-xl flex justify-between items-center mb-2 px-3 pr-10 font-semibold">
+                  <h1>HTML</h1>
+                  <h1>90%</h1>
+                </div>
+                <progress class="progress progress-accent bg-gray-500 w-full h-5" value="90" max="100"></progress>
+              </div>
+
+              <div>
+                <div class="text-white text-xl flex justify-between items-center mb-2 px-3 pr-16 font-semibold mt-16">
+                  <h1>CSS</h1>
+                  <h1>80%</h1>
+                </div>
+                <progress class="progress progress-accent bg-gray-500 w-full h-5" value="80" max="100"></progress>
+              </div>
+
+              <div>
+                <div class="text-white text-xl flex justify-between items-center mb-2 px-3 pr- font-semibold mt-16">
+                  <h1>JS</h1>
+                  <h1>60%</h1>
+                </div>
+                <progress class="progress progress-accent bg-gray-500 w-full h-5" value="60" max="100"></progress>
+              </div>
+
+              <div>
+                <div class="text-white text-xl flex justify-between items-center mb-2 px-3 pr-8 font-semibold mt-16">
+                  <h1>TAILWIND</h1>
+                  <h1>85%</h1>
+                </div>
+                <progress class="progress progress-accent bg-gray-500 w-full h-5" value="85" max="100"></progress>
+              </div>            
+            </div>
+
+            <div class="lg:w-1/2 ms-auto mt-10 lg:mt-0">
+              <h1 class="text-2xl font-semibold text-white text-center lg:mb-12 tracking-widest">Professional Skills</h1>
+              <div class="grid grid-cols-2 gap-16 gap-x-20 mt-10 text-center items-center lg:mt-0">
+                <div class="">
+                  <div class="radial-progress text-accent " style="--value:90; --thickness: 1rem;--size:10rem;">90%</div>
+                  <h1 class="text-xl text-white font-semibold  mt-3 text-center">Creativity</h1>
+                </div>
+  
+                <div class="">
+                  <div class="radial-progress text-accent " style="--value:70; --thickness: 1rem;--size:10rem;">70%</div>
+                  <h1 class="text-xl text-white font-semibold  mt-3 text-center">Communication</h1>
+                </div>
+  
+                <div class="">
+                  <div class="radial-progress text-accent " style="--value:80; --thickness: 1rem;--size:10rem;">80%</div>
+                  <h1 class="text-xl text-white font-semibold  mt-3 text-center">Problem Solving</h1>
+                </div>
+  
+                <div class="">
+                  <div class="radial-progress text-accent" style="--value:60; --thickness: 1rem;--size:10rem;">60%</div>
+                  <h1 class="text-xl text-white font-semibold  mt-3 text-center">Teamwork</h1>
+                </div>
+  
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+
+      <!-- project -->
+
+      <section id="project" class="snap-start bg-[#100000] py-10">
+        <div class="container">
+          <h1 class="lg:text-5xl text-2xl sm:text-3xl md:text-4xl font-semibold text-center lg:mb-20 mb-5 md:mb-14 sm:mb-9 text-white tracking-widest">Latest <span class="text-cyan-400">Projects</span></h1>
+          <div class="lg:flex lg:space-x-10 mx-auto">
+            <div id="project2" class="lg:w-1/2 mb-5 h-96  overflow-y-scroll">
+              <img src="image/project/project1.png" class="w-full" alt="">
+            </div>
+
+            <div id="project2" class="lg:w-1/2 h-96  overflow-y-scroll">
+              <img src="image/project/project2.png" class="w-full" alt="">
+            </div>
+          </div>
+
+          <div  class="lg:flex lg:space-x-10 mx-auto mt-5">
+            <div id="project2" class="lg:w-1/2 mb-5 h-96  overflow-y-scroll">
+              <img src="image/project/project3.png" class="w-full" alt="">
+            </div>
+
+            <div id="project2" class="lg:w-1/2 h-96  overflow-y-scroll">
+              <img src="image/project/project4.png" class="w-full" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- contact -->
+
+      <section id="contact" class="bg-[#100000] py-40 snap-end scroll-m-10">
+        <div class="container">
+          <div class="md:flex justify-between space-x-5">
+            <div class="text-white md:w-1/2">
+              <h1 class=" font-semibold text-center text-3xl mb-5 text-white tracking-widest">Contact <span class="text-cyan-400">Me</span></h1>
+              <p class="text-xl mb-5">Let's Work Together</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id eaque doloremque iste assumenda dolores! Eveniet ducimus odit harum adipisci excepturi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque pariatur tenetur eum nesciunt voluptatibus id porro. Repudiandae magni expedita ipsum?
+              </p>
+              <p class="text-lg mt-9"><i class="fa-solid fa-phone text-accent pr-5"></i>+8801880992236</p>
+              <p class="text-lg mt-2"><i class="fa-regular fa-envelope text-accent pr-5"></i>sajukaligonj21@gmail.com</p>
+              
+              <p class="text-lg mt-2"><i class="fa-brands fa-facebook-f text-accent pr-5"></i>https://www.facebook.com/si.saju.357</p>
+            </div>
+
+            <div class="md:w-1/2 mt-7 md:mt-0">
+              <input type="text" class="w-full h-11 px-3 bg-gray-300 placeholder:text-black placeholder:italic placeholder:font-semibold outline-none rounded-md focus:ring-2 ring-pink-500" placeholder="Enter Your Name">
+
+              <input type="text" class="w-full h-11 px-3 bg-gray-300 placeholder:text-black placeholder:italic placeholder:font-semibold outline-none rounded-md focus:ring-2 ring-pink-500 mt-2" placeholder="Enter Your Email">
+
+              <input type="text" class="w-full h-11 px-3 bg-gray-300 placeholder:text-black placeholder:italic placeholder:font-semibold outline-none rounded-md focus:ring-2 ring-pink-500 mt-2" placeholder="Enter Your Subject">
+
+              <textarea class="w-full mt-2 bg-gray-300 h-40 rounded-md outline-none focus:right-1 ring-pink-500 px-3 placeholder:text-black placeholder:italic placeholder:font-semibold" placeholder="Enter Your Message"></textarea>
+
+              <input id="submit" type="submit" class="w-full bg-cyan-300 mt-5 h-11 rounded-full font-bold tracking-widest cursor-pointer">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+
+      <footer class="bg-[#110000] pt-20 pb-4 border-t snap-end">
+        <div class=" pb-5 md:pb-10  flex space-x-5 justify-center">
+          <div class="border w-10 cursor-pointer  h-10 flex justify-center items-center rounded-full transition icon hover:rotate-[360deg] duration-700"><i class="fa-brands fa-facebook text-purple-500 text-3xl }"></i></div>
+
+          <div class="border w-10 cursor-pointer  h-10 flex justify-center items-center rounded-full transition icon hover:rotate-[360deg] duration-700"><i class="fa-brands fa-tiktok text-purple-500 text-2xl }"></i></div>
+
+
+          <div class="border w-10  cursor-pointer h-10 flex justify-center items-center rounded-full transition icon hover:rotate-[360deg] duration-700"><i class="fa-brands fa-facebook-messenger text-purple-500 text-2xl }"></i></div>
+
+          <div class="border w-10 cursor-pointer  h-10 flex justify-center items-center rounded-full transition icon hover:rotate-[360deg] duration-700"><i class="fa-brands fa-github text-purple-500 text-2xl }"></i></div>
+        </div>
+        <div class="text-white">
+          <ul class="flex justify-center text-white space-x-2 sm:space-x-5  sm:text-xl pb-4">
+            <li><a href="#home" class="hover:border-b hover:border-purple-500 text-purple-300 hover:text-purple-500">Home</a></li>
+            <li><a href="#about" class="hover:border-b scroll-smooth border-purple-500 transition text-purple-300 hover:text-purple-500">About</a></li>
+            <li><a href="#services" class="hover:border-b border-purple-500 transition text-purple-300 hover:text-purple-500">Services</a></li>
+            <li><a href="#skills" class="hover:border-b border-purple-500 transition text-purple-300 hover:text-purple-500">Skills</a></li>
+            <li><a href="#project" class="hover:border-b border-purple-500 transition text-purple-300 hover:text-purple-500">Project</a></li>
+            <li><a href="#contact" class="hover:border-b border-purple-500 transition text-purple-300 hover:text-purple-500">Contact</a></li>
+          </ul>
+        </div>
+        <div class="border-t mt-4 sm:text-2xl text-center pt-2 italic text-purple-500 relative">
+          &copy;2023 Design By Md.Suruzzaman Saju | All Rights Reserved
+          <div class="absolute animate-pulse transition icon right-7 -bottom-3 px-3 py-1 pt-2 bg-cyan-500 rounded-t-2xl">
+            <a href="#home">            
+            <i class="fa-solid fa-arrow-up text-xl text-black  animate-bounce"> </i>
+            </a>
+          </div>
+        </div>
+        
+      </footer>
+
+   
+
+
+    
+    
+</body>
+</html>
